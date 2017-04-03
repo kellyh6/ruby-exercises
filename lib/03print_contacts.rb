@@ -17,3 +17,6 @@ contacts = {
   Lenny: '444-444-4444',
   Daniel: '777-777-7777'
 }
+
+contacts = Hash.new(0)
+print_contacts.value.each {|key|contacts[key] +=1}
